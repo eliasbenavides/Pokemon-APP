@@ -1,0 +1,16 @@
+.header{
+    background-color: #E53F3F;
+    height: 800px;
+    width: 250px;
+    text-align: center;
+    color: white;  
+    font-size: 16px;  
+}
+
+.text-CreatePokemon{
+    color: white;
+}
+.pokemonAppText{
+    margin-bottom: 50px;
+    color: white;
+}

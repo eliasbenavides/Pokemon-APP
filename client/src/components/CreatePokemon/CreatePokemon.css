@@ -1,0 +1,49 @@
+.divPrincipal{
+    display: flex;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 90%;
+}
+
+
+
+.forms{
+    background-color: #e4e4e4;
+    height: 700px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.createPokemon{
+    margin-top: 30px;
+    border: none;
+    background-color: #28d17d;
+    height: 50px;
+    width: 350px;
+    display: block;
+    color: white;
+}
+.createPokemon:hover{
+    background-color: #23b46c;
+}
+.cajaForm{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cajaTypes{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.h4{
+    margin-right: 40px;
+}

@@ -1,0 +1,16 @@
+.error{
+    margin-top: 10px;
+    border: none;
+    background-color: #f10000;
+    height: 50px;
+    width: 350px;
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.textError{
+    text-transform: uppercase;
+}

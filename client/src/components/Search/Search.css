@@ -1,0 +1,10 @@
+.inputSearch{
+    border-radius: 2px;
+
+}
+
+.btnSearch{
+    margin-left: 1px;
+    border-radius: 2px;
+    border: 1px solid black;
+}

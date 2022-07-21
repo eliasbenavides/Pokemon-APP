@@ -1,0 +1,35 @@
+.padreDetail{
+    display: flex;
+    width: 100%;
+}
+
+.pokeDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+.detail{
+    background-color: #E53F3F;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+
+}
+.type{
+    display: inline;
+}
+.cajaType{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: aqua;
+}
