@@ -30,15 +30,6 @@ const rootReducer = ( state = initialState, action ) => {
         ...state,
         types: action.payload
       }
-    case FILTRO_CORRECCION:
-      let correccion = [...state.AllPokemons].sort((a, b) => a.attack > b.attack ? -1 : 1)
-      let pokemonsAguaCorreccion = [...correccion].filter(pokemon => pokemon.types.includes("Normal"))
-      let arrayFinal = [...pokemonsAguaCorreccion].slice(0,5)
-      return{
-        ...state,
-        pokemons: arrayFinal
-      }
-
     case FILTER_ATAQUE:
       let moreAttack = [...state.pokemons].sort((a, b) => a.attack > b.attack ? -1 : 1)
       let lessAttack = [...state.pokemons].sort((a, b) => a.attack > b.attack ? 1 : -1)

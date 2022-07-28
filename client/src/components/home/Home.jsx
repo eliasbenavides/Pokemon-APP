@@ -11,7 +11,7 @@ import TypesFilter from '../TypesFilter/TypesFilter'
 import Loading from '../Loading/Loading'
 import AttackFilter from '../AttackFilter/AttackFilter'
 import './Home.css'
-import FiltroCorreccion from '../FilltroDeLaCorrectora/FiltroCorreccion'
+
 
 
 
@@ -68,7 +68,6 @@ const Home = () => {
           <CreatedFilter />
           <TypesFilter />
           <AttackFilter />
-          <FiltroCorreccion />
 
           <h3>3</h3>
         </div>

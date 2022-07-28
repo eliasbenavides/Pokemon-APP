@@ -52,12 +52,6 @@ export const getAllPokemons = (name) => {
     }
   }
 }
-export const filtroCorreccion= (click) => {
-  return{
-    type: FILTRO_CORRECCION,
-    payload: click
-  }
-}
 
 export const filterAttack = (moreOrLessAttack) => { // 'more' or 'less'
   return {
